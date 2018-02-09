@@ -1,0 +1,9 @@
+bootRepackage {
+    mainClass = "com.example.feature2.Feature2Application"
+    enabled = true
+}
+
+dependencies {
+    compile project(":common")
+    compile "org.springframework.boot:spring-boot-starter-web"
+}
